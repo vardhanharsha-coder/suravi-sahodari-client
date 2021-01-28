@@ -14,7 +14,7 @@ const MainFooter = ({fixed=false}) => {
             <Nav>
             {data == null && <>
                 <NavLink href="/about">For Nurse</NavLink>
-                <NavLink href="/register">For Corporate</NavLink>
+                <NavLink href="/error">For Corporate</NavLink>
                 <NavLink href="/login">temp@sahodari.org</NavLink>
             </>}
                 {data != null && <>

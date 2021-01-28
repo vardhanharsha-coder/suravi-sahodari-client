@@ -19,9 +19,9 @@ const Page = () => <WithMainNavBarAndFooter fixed={true}>
                 </div>
             </Container>
         </Col>
-        <Col style={{height:"calc(100vh)"}}>
+        {/* <Col style={{height:"calc(100vh)"}}>
             <Image src="/images/nurse1.png" objectFit="cover" layout="fill"/>
-        </Col>
+        </Col> */}
     </Row>
 </WithMainNavBarAndFooter>
 
