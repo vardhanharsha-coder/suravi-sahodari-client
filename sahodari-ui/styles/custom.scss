@@ -1,0 +1,60 @@
+.nav-link.text-white {
+  &:hover {
+    font-weight: bold;
+  }
+  &.disabled {
+    color: rgba($white, .5) !important;
+  }
+  &.active {
+    font-weight: bold;
+  }
+}
+
+.logo {
+  font-family: 'Helvetica Neue';
+  font-size: 48px;
+}
+.ma-5{
+  background: #FFFFFF;
+  box-shadow: 2px -1px 15px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+.login-form{
+  padding: 50px 20px;
+}
+.login{
+  background: #FFC4AA;
+  border-radius: 41px;
+  border-color: #FFC4AA;
+  color: black;
+}
+
+.forgot-pass{
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  color: #FFC3AA;
+  cursor: pointer;
+}
+.hrline{
+  border: 1px solid #A3A3A3;
+  width: 11em;
+}
+.productDiv{
+  background: #FED6B1;
+  border-radius: 16px;
+  padding: 29px 42px;
+}
+.font-13{
+  font-size: 13px;
+}
+.request-button{
+  background: #FFC4AA;
+ border-radius: 41px;
+ margin-top: 101px;
+ padding: 10px 25px;
+}
+
